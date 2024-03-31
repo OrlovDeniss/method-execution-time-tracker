@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: method-execution-time-tracker
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/method-execution-tracker
+    username: postgres
+    password: 346749
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
